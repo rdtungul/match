@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', 'Sans-Serif';
+    margin: 0 auto;
+    text-align: center;
+    background: #80bdab;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', 'Sans-Serif';
+    font-weight: bolder;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.all-content {
+    padding: 0 15%;
+}
+
+
+
+
+
+@import "nav";
+@import "main";
+@import "footer";

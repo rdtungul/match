@@ -1,0 +1,46 @@
+.card {
+    position: relative;
+    transition: all .4s linear;
+    transform-style: preserve-3d;
+    max-width: 9rem;
+    height: 9rem;
+    margin-bottom: 3%;
+    padding: 0;
+    border: none;
+    background-position: 50% 50%;
+
+}
+
+// code on the js file
+.match .front {
+  background: #80bdab !important;
+}
+
+card,
+.back,
+.front {
+  height: 9rem;
+  width: 9rem;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #6589F9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.selected {
+  transform: rotateY(180deg);
+}
